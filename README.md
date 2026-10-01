@@ -21,6 +21,18 @@
 **Ojas Misra** -- [misra.o@northeastern.edu](mailto:misra.o@northeastern.edu)
 **Shrirangesh Vedanarayanan** -- [vedanarayanan.s@northeastern.edu](mailto:vedanarayanan.s@northeastern.edu)
 
+
+## My contributions
+
+I owned the cloud infrastructure and worked on the data engineering pipeline.
+
+- **Cloud infrastructure:** Provisioned the project's AWS infrastructure with Terraform, including the S3 storage for SEC filings used by the RAG pipeline.
+- **SEC filing RAG on AWS Bedrock:** Set up a Bedrock Knowledge Base over 10-K and 10-Q filings with cited answers and cross-ticker comparison, plus Guardrails that block investment advice, redact PII, and check answers against the source filings.
+- **Data warehouse:** Helped build the three-layer Snowflake architecture (raw, staging, analytics) in dbt, with 5 staging views and 6 tested analytics tables.
+- **Ingestion pipeline:** Worked on loading prices, fundamentals, news, and SEC filings from five sources, with idempotent MERGE loads, data quality scoring, incremental fetch, and retries.
+- **Orchestration:** Contributed to the daily Airflow DAG that runs the parallel data fetches, dbt transformations, and quality checks.
+  
+
 [What It Does](#what-it-does) · [The Stack](#the-stack) · [Architecture](#architecture) · [Frontend Pages](#frontend-pages) · [Features](#features) · [Getting Started](#getting-started) · [Project Structure](#project-structure) · [Output](#output) · [Tickers](#tickers)
 
 </div>

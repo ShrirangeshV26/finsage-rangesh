@@ -4,6 +4,10 @@
 
 **AI-Powered Financial Research Report Generator**
 
+
+
+This is my fork of the FinSage team project. Original repo: [raghuneu/finsage](https://github.com/raghuneu/finsage)
+
 <h3><a href="https://teamfinsage.vercel.app/">https://teamfinsage.vercel.app</a></h3>
 
 [![Python](https://img.shields.io/badge/Python-3.9-3776AB?style=flat-square&logo=python&logoColor=white)](#)
